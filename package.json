@@ -1,0 +1,34 @@
+{
+  "name": "@kodesaas/gamma-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for generating presentations with the Gamma API (v1.0)",
+  "type": "module",
+  "bin": {
+    "gamma-mcp-server": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --out-dir dist --clean",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "gamma",
+    "presentation",
+    "slides",
+    "ai",
+    "model-context-protocol"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
