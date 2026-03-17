@@ -1,5 +1,5 @@
 {
-  "name": "@kodesaas/gamma-mcp-server",
+  "name": "@mnicole-dev/gamma-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for generating presentations with the Gamma API (v1.0)",
   "type": "module",
