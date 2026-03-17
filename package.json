@@ -1,13 +1,14 @@
 {
   "name": "@mnicole-dev/gamma-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for generating presentations with the Gamma API (v1.0)",
   "type": "module",
   "bin": {
     "gamma-mcp-server": "./dist/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm --out-dir dist --clean",
